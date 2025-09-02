@@ -1,0 +1,292 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Hangfire Workload Orchestrator API",
+    "description": "API per l'orchestrazione dei workload tramite Hangfire",
+    "version": "v1"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "tags": [
+          "HangfireOrchestrator"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/hangfire/info": {
+      "get": {
+        "tags": [
+          "HangfireOrchestrator"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkloadOrchestrator/execute": {
+      "post": {
+        "tags": [
+          "WorkloadOrchestrator"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkloadExecutionRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkloadExecutionRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkloadExecutionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkloadOrchestrator/pipeline": {
+      "post": {
+        "tags": [
+          "WorkloadOrchestrator"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkflowPipelineRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkflowPipelineRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkflowPipelineRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkloadOrchestrator/jobs/{jobId}/status": {
+      "get": {
+        "tags": [
+          "WorkloadOrchestrator"
+        ],
+        "parameters": [
+          {
+            "name": "jobId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkloadOrchestrator/jobs/{jobId}": {
+      "delete": {
+        "tags": [
+          "WorkloadOrchestrator"
+        ],
+        "parameters": [
+          {
+            "name": "jobId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "isRecurring",
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkloadOrchestrator/workloads": {
+      "get": {
+        "tags": [
+          "WorkloadOrchestrator"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/WorkloadOrchestrator/pipelines/examples": {
+      "get": {
+        "tags": [
+          "WorkloadOrchestrator"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ExecutionMode": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "WorkflowPipelineRequest": {
+        "required": [
+          "pipelineName",
+          "steps"
+        ],
+        "type": "object",
+        "properties": {
+          "pipelineName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/WorkflowStep"
+            }
+          },
+          "globalParameters": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WorkflowStep": {
+        "required": [
+          "workloadType"
+        ],
+        "type": "object",
+        "properties": {
+          "workloadType": {
+            "$ref": "#/components/schemas/WorkloadType"
+          },
+          "order": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "parameters": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          },
+          "delayAfterCompletion": {
+            "type": "string",
+            "format": "date-span",
+            "nullable": true
+          },
+          "continueOnError": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WorkloadExecutionRequest": {
+        "required": [
+          "workloadType"
+        ],
+        "type": "object",
+        "properties": {
+          "workloadType": {
+            "$ref": "#/components/schemas/WorkloadType"
+          },
+          "mode": {
+            "$ref": "#/components/schemas/ExecutionMode"
+          },
+          "parameters": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          },
+          "scheduledAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "cronExpression": {
+            "type": "string",
+            "nullable": true
+          },
+          "recurringJobId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WorkloadType": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "type": "integer",
+        "format": "int32"
+      }
+    }
+  }
+}

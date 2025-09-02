@@ -1,0 +1,123 @@
+[
+  {
+    "ContainingType": "HangfireOrchestrator.Controllers.WorkloadOrchestratorController",
+    "Method": "ExecuteWorkload",
+    "RelativePath": "api/WorkloadOrchestrator/execute",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HangfireOrchestrator.Models.WorkloadExecutionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HangfireOrchestrator.Controllers.WorkloadOrchestratorController",
+    "Method": "DeleteJob",
+    "RelativePath": "api/WorkloadOrchestrator/jobs/{jobId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "isRecurring",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HangfireOrchestrator.Controllers.WorkloadOrchestratorController",
+    "Method": "GetJobStatus",
+    "RelativePath": "api/WorkloadOrchestrator/jobs/{jobId}/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HangfireOrchestrator.Controllers.WorkloadOrchestratorController",
+    "Method": "ExecutePipeline",
+    "RelativePath": "api/WorkloadOrchestrator/pipeline",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pipelineRequest",
+        "Type": "HangfireOrchestrator.Models.WorkflowPipelineRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HangfireOrchestrator.Controllers.WorkloadOrchestratorController",
+    "Method": "GetPipelineExamples",
+    "RelativePath": "api/WorkloadOrchestrator/pipelines/examples",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HangfireOrchestrator.Controllers.WorkloadOrchestratorController",
+    "Method": "GetAvailableWorkloads",
+    "RelativePath": "api/WorkloadOrchestrator/workloads",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_6",
+    "RelativePath": "hangfire/info",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__5",
+    "RelativePath": "health",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
