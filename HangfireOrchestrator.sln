@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangfireOrchestrator", "HangfireOrchestrator.csproj", "{150CC897-E8A9-423D-9DF9-C3A7D6A083FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService", "..\..\..\source\repos\WorkerService\WorkerService.csproj", "{BBF2E110-5D2B-F05D-D1A3-71F558F8619D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangfireOrchestrator", "..\..\..\source\repos\HangfireOrchestrator\HangfireOrchestrator.csproj", "{84632865-1441-3E5F-CC6B-71A26E3162B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{150CC897-E8A9-423D-9DF9-C3A7D6A083FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{150CC897-E8A9-423D-9DF9-C3A7D6A083FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{150CC897-E8A9-423D-9DF9-C3A7D6A083FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{150CC897-E8A9-423D-9DF9-C3A7D6A083FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF2E110-5D2B-F05D-D1A3-71F558F8619D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF2E110-5D2B-F05D-D1A3-71F558F8619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF2E110-5D2B-F05D-D1A3-71F558F8619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF2E110-5D2B-F05D-D1A3-71F558F8619D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84632865-1441-3E5F-CC6B-71A26E3162B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84632865-1441-3E5F-CC6B-71A26E3162B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84632865-1441-3E5F-CC6B-71A26E3162B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84632865-1441-3E5F-CC6B-71A26E3162B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

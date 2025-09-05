@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucac\\Desktop\\Progetti\\HangfireOrchestrator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84632865-1441-3E5F-CC6B-71A26E3162B3}|..\\..\\..\\source\\repos\\HangfireOrchestrator\\HangfireOrchestrator.csproj|c:\\users\\lucac\\source\\repos\\hangfireorchestrator\\services\\jobexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84632865-1441-3E5F-CC6B-71A26E3162B3}|..\\..\\..\\source\\repos\\HangfireOrchestrator\\HangfireOrchestrator.csproj|c:\\users\\lucac\\source\\repos\\hangfireorchestrator\\services\\serviceregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84632865-1441-3E5F-CC6B-71A26E3162B3}|..\\..\\..\\source\\repos\\HangfireOrchestrator\\HangfireOrchestrator.csproj|c:\\users\\lucac\\source\\repos\\hangfireorchestrator\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84632865-1441-3E5F-CC6B-71A26E3162B3}|..\\..\\..\\source\\repos\\HangfireOrchestrator\\HangfireOrchestrator.csproj|c:\\users\\lucac\\source\\repos\\hangfireorchestrator\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF2E110-5D2B-F05D-D1A3-71F558F8619D}|..\\..\\..\\source\\repos\\WorkerService\\WorkerService.csproj|c:\\users\\lucac\\source\\repos\\workerservice\\controllers\\workcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84632865-1441-3E5F-CC6B-71A26E3162B3}|..\\..\\..\\source\\repos\\HangfireOrchestrator\\HangfireOrchestrator.csproj|c:\\users\\lucac\\source\\repos\\hangfireorchestrator\\models\\serviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF2E110-5D2B-F05D-D1A3-71F558F8619D}|..\\..\\..\\source\\repos\\WorkerService\\WorkerService.csproj|c:\\users\\lucac\\source\\repos\\workerservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84632865-1441-3E5F-CC6B-71A26E3162B3}|..\\..\\..\\source\\repos\\HangfireOrchestrator\\HangfireOrchestrator.csproj|c:\\users\\lucac\\source\\repos\\hangfireorchestrator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceRegistry.cs",
+              "DocumentMoniker": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Services\\ServiceRegistry.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Services\\ServiceRegistry.cs",
+              "ToolTip": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Services\\ServiceRegistry.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Services\\ServiceRegistry.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:54:11.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorkController.cs",
+              "DocumentMoniker": "C:\\Users\\lucac\\source\\repos\\WorkerService\\Controllers\\WorkController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\WorkerService\\Controllers\\WorkController.cs",
+              "ToolTip": "C:\\Users\\lucac\\source\\repos\\WorkerService\\Controllers\\WorkController.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\WorkerService\\Controllers\\WorkController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:51:32.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwEEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:50:32.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Controllers\\JobController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Controllers\\JobController.cs",
+              "ToolTip": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Controllers\\JobController.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Controllers\\JobController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwCMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:26:54.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Services\\JobExecutor.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Services\\JobExecutor.cs",
+              "ToolTip": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Services\\JobExecutor.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Services\\JobExecutor.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwE8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:21:32.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Program.cs",
+              "ToolTip": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwC0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:21:01.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceInfo.cs",
+              "DocumentMoniker": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Models\\ServiceInfo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Models\\ServiceInfo.cs",
+              "ToolTip": "C:\\Users\\lucac\\source\\repos\\HangfireOrchestrator\\Models\\ServiceInfo.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\HangfireOrchestrator\\Models\\ServiceInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:20:42.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucac\\source\\repos\\WorkerService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\WorkerService\\Program.cs",
+              "ToolTip": "C:\\Users\\lucac\\source\\repos\\WorkerService\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\WorkerService\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:12:03.733Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

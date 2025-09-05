@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HangfireOrchestrator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68aa09f46ed8dad6269bf829e1690f865dd883dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("HangfireOrchestrator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HangfireOrchestrator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
